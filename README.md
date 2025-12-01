@@ -42,6 +42,7 @@ admin.site.register(Car,CarAdmin)
 ```
 # OUTPUT
 Include the screenshot of your admin page.
+<img width="1910" height="1021" alt="Screenshot 2025-11-26 092219" src="https://github.com/user-attachments/assets/b2803e14-f06f-4478-88d8-781ee406d385" />
 
 
 # RESULT
