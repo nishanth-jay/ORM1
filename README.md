@@ -17,8 +17,8 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 cars
 
 # PROGRAM
-'''
-admin.py:
+```
+model.py:
 from django.db import models
 from django.contrib import admin
 
@@ -31,18 +31,17 @@ class Car(models.Model):
 
 class CarAdmin(admin.ModelAdmin):
     list_display = ['car_model', 'car_type', 'engine_type','color']
-'''
-'''
-models.py:
+```
+```
+admin.py:
 from django.contrib import admin
 from .models import Car,CarAdmin
 
 
 admin.site.register(Car,CarAdmin)
-'''
+```
 # OUTPUT
 Include the screenshot of your admin page.
-<img width="1919" height="1023" alt="Screenshot 2025-11-26 094740" src="https://github.com/user-attachments/assets/3e845df9-f201-4b9a-8d4a-8c185bf2e2d3" />
 
 
 # RESULT
