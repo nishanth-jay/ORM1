@@ -18,7 +18,7 @@ Execute Django admin and create details for 10 cars
 
 # PROGRAM
 ```
-model.py:
+models.py:
 from django.db import models
 from django.contrib import admin
 
